@@ -5,12 +5,12 @@ declare module 'egg' {
   // extend app
   interface Application {
     Sequelize: sequelize.SequelizeStatic;
-    model: sequelize.Sequelize;
+    sequelize: sequelize.Sequelize;
   }
 
   // extend context
   interface Context {
-    model: sequelize.Sequelize;
+    sequelize: sequelize.Sequelize;
   }
 
   // extend your config
