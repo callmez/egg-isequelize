@@ -1,9 +1,9 @@
 {
   "name": "egg-isequelize",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.1",
   "description": "egg Sequelize(v5) plugin",
   "eggPlugin": {
-    "name": "model"
+    "name": "sequelize"
   },
   "keywords": [
     "egg",
