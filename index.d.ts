@@ -6,11 +6,13 @@ declare module 'egg' {
   interface Application {
     Sequelize: sequelize.SequelizeStatic;
     sequelize: sequelize.Sequelize;
+    model: sequelize.Sequelize[];
   }
 
   // extend context
   interface Context {
     sequelize: sequelize.Sequelize;
+    model: sequelize.Sequelize[];
   }
 
   // extend your config
